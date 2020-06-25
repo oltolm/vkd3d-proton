@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "win32",
+            "binaryDir": "build32",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+                "LTO": "ON",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/x32",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"                
+            }
+        },
+        {
+            "name": "win64",
+            "binaryDir": "build64",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+                "LTO": "ON",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/x64",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+            }
+        }
+    ]
+}
