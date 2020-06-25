@@ -1,3 +1,7 @@
+build64/
+build32/
+.vscode/
+*.Tpo
 build
 build.*
 vkd3d-proton-*.tar.zst
