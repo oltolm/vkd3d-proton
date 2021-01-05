@@ -37,7 +37,6 @@
 # define static
 #endif
 
-#define INITGUID
 #define COBJMACROS
 #define WIDL_C_INLINE_WRAPPERS
 #include <vkd3d_windows.h>

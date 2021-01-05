@@ -43,6 +43,7 @@
 
 #define VKD3D_DBG_CHANNEL VKD3D_DBG_CHANNEL_API
 
+#define INITGUID
 #include "vkd3d_win32.h"
 #include "vkd3d_private.h"
 

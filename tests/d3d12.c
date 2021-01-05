@@ -23,6 +23,7 @@
 #define _USE_MATH_DEFINES
 #endif
 
+#define INITGUID
 #include "d3d12_crosstest.h"
 
 static PFN_D3D12_CREATE_VERSIONED_ROOT_SIGNATURE_DESERIALIZER pfn_D3D12CreateVersionedRootSignatureDeserializer;
